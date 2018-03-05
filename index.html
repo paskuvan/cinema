@@ -3,19 +3,35 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Cinemax</title>
+	<link rel="stylesheet" href="css/grid-system.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link rel="stylesheet" href="css/utilities.css">
-	<link rel="stylesheet" href="grid-system.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet"> 
 </head>
 <body>
 
-<div id="menu" class="container">
-	<div class="row">
-		<div class="col-12">
-			<img src="img/logo.png" alt="">
+<header>
+	<div class="container-fluid">
+		<div id="menu">
+			<div class="row">
+				<div class="col-4">
+					<img src="img/logo.png" alt="">
+				</div>
+				<div class="col-4 pd-2 texto">
+					movie theather
+				</div>
+				<div class="col-4 pd-2 texto">
+					<form action="search/" id="searching" method="get">
+	  						<input id="search-form" placeholder="Buscar" name="busqueda" class="texto" />
+						</form>
+						<i id="search" class="fa fa-search"></i>
+				</div>
+			</div>
 		</div>
 	</div>
-</div>
+</header>
 
 </body>
 </html>

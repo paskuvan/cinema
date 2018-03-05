@@ -1,0 +1,13 @@
+body {
+	font-family: 'Roboto', sans-serif;
+}
+
+#menu {
+	margin: 10px;
+}
+
+#menu .texto {
+	font-size: 18px;
+	text-transform: uppercase;
+	color: #b9b7b6;
+}
