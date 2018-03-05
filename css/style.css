@@ -16,8 +16,22 @@ body {
 	margin-left: 65%;
 }
 
-#banner .texto {
-	font-size: 40px;
+
+#banner .large {
 	text-transform: uppercase;
+	color: #b9b7b6;
+}
+
+#banner .age {
+	font-size: 16px;
+	color: #18a364;
+	font-weight: 700;
+}
+
+#banner .bgk {
+	background-color: #2d2e2e;
+}
+
+#banner .peli {
 	color: #b9b7b6;
 }
