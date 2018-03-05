@@ -16,6 +16,9 @@ body {
 	margin-left: 65%;
 }
 
+#banner .bkg {
+	margin-top: -20em;
+}
 
 #banner .large {
 	text-transform: uppercase;
@@ -28,10 +31,10 @@ body {
 	font-weight: 700;
 }
 
-#banner .bgk {
-	background-color: #2d2e2e;
-}
-
 #banner .peli {
 	color: #b9b7b6;
+}
+
+#banner #icon {
+	height: 100px;
 }
