@@ -11,3 +11,13 @@ body {
 	text-transform: uppercase;
 	color: #b9b7b6;
 }
+
+#menu #search {
+	margin-left: 65%;
+}
+
+#banner .texto {
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #b9b7b6;
+}
